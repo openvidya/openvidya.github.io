@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/home.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -35,7 +36,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-light font-weight-bold"><span class="sm-none small">The</span> Open Vidya <span class="sm-none small">Project</span></h1>
+                        <h1 class="text-uppercase text-light font-weight-bold"><span class="d-none d-sm-inline small">The</span> Open Vidya <span class="d-none d-sm-inline small">Project</span></h1>
                         <h6 class="text-dark text-uppercase font-weight-bold">Codename:</h6><h4 class="text-dark text-uppercase font-weight-bold">Project KTU</h4>
                         <hr class="divider my-4" />
                     </div>
@@ -166,39 +167,57 @@
             </div>
         </section>
         <section class="page-section " id="contribute">
-            <div class="container text-center">
-                <h2 class="mb-4">Be our Benefactor</h2>
-                <h6 class="mb-4">Show your support for us</h6>
+            <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="card m-1">
-                            <div class="card-body">
-                              <h4 class="card-title">Are you an Instituition</h4>
-                              <p class="card-text">Portray your support and guide your students by your support for this Initiative</p>
-                              <a class="btn btn-light btn-xl" href="mailto:theopenvidyaproject@gmail.com" target="_blank">Endorse Us!</a>
-                            </div>
+                  <div class="col-12 col-sm-12 text-center pt-5 col-md-8 col-lg-6">
+                    <h2 class="mb-4 mt-4 ov-logo">Be an <span class="h1 ov-logo">O</span><span class="full-form">pen </span><span class="h1 ov-logo">V</span><span class="full-form">idya </span> <span class="text-warning supporter"></span></h2>
+                    <h6 class="mb-4">Show your support for us</h6>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                    <div class="card">
+                      <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="supporter" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#instituition" role="tab" aria-controls="instituition" aria-selected="true">Instituition</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"  href="#angel" role="tab" aria-controls="angel" aria-selected="false">Angel Investor</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#organization" role="tab" aria-controls="organization" aria-selected="false">Organization</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-subtitle mb-2">Are you an</h6>
+                         <div class="tab-content mt-3">
+                          <div class="tab-pane active" id="instituition" role="tabpanel">
+                            <h4 class="card-title">Instituition?</h4>
+                            <p class="card-text">Portray your support and guide your students by your support for this Initiative.</p>
+                            <a href="#contact" class="card-link text-danger js-scroll-trigger">Support Now</a>
                           </div>
-                    </div>
-                    <div class="col">
-                        <div class="card m-1">
-                            <div class="card-body">
-                              <h4 class="card-title">Are you an Organization?</h4>
-                              <p class="card-text">Show your support to this extraordinary Initiative.</p>
-                              <a class="btn btn-light btn-xl" href="mailto:theopenvidyaproject@gmail.com" target="_blank">Support Us!</a>
-                            </div>
+                           
+                          <div class="tab-pane" id="angel" role="tabpanel" aria-labelledby="angel-tab">
+                            <h4 class="card-title">Angel Investor?</h4>  
+                            <p class="card-text">Donate to our Open Source Project and fuel the world's next Engineers.</p>
+                            <a href="#contact" class="card-link text-danger js-scroll-trigger">Donate Now</a>
                           </div>
-                    </div>
-                    <div class="col">
-                        <div class="card m-1">
-                            <div class="card-body">
-                              <h4 class="card-title">Are you an Angel Investor</h4>
-                              <p class="card-text">Donate to our Open Source Project and fuel the world's next Engineers.</p>
-                              <a class="btn btn-light btn-xl" href="mailto:theopenvidyaproject@gmail.com" target="_blank">Support Us!</a>
-                            </div>
+                           
+                          <div class="tab-pane" id="organization" role="tabpanel" aria-labelledby="organization-tab">
+                            <h4 class="card-title">Organization?</h4>
+                            <p class="card-text">Show your support for this extraordinary Initiative and lead the way.</p>
+                            <a href="#contact" class="card-link js-scroll-trigger">Support Now</a>
                           </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="row  text-center">
+                        <p class="w-100 p-2 mt-2 text-center">Or be a <a class="js-scroll-trigger text-warning" href="#contact">contributor</a> of Knowledge or Code!</p>
+                    </div>
+                  </div>
                 </div>
-            </div>
+                
+              </div>
         </section>
 
         <!-- Contact-->
@@ -232,6 +251,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->

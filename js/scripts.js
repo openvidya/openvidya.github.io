@@ -76,7 +76,7 @@
 //   });
  
 // });
-
+/*
 const progressBar = document.getElementById("scroll-bar");
 const progressFill = progressBar.firstElementChild;
 
@@ -92,5 +92,20 @@ function updateProgress() {
 	progressBar.style.width = Math.ceil(100 * progress) + "%";
 }
 
-updateProgress();
+updateProgress();*/
 
+$('#supporter a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+// Can also be included with a regular script tag
+//import Typed from 'typed.js';
+
+var options = {
+  strings: ['Guiding Instituition ^3000', 'Angel Investor ^3000', "Funding Organization ^3000","Developer ^3000","Benefactor ^3000","Contributor ^3000",],
+  typeSpeed: 40,
+  loop:true
+};
+
+var typed = new Typed('.supporter', options);

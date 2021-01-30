@@ -1,0 +1,19 @@
+
+.ov-logo{
+
+}
+
+.ov-logo:hover .full-form{
+    display: inline;
+}
+
+.full-form{
+    display: none;
+    transition: 1s ease;
+}
+
+
+.container:hover .full-form{
+    display: none;
+    transition: 1s ease;
+}
