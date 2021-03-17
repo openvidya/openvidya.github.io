@@ -1,1 +1,1 @@
-# openvidya.github.io
+# the *Open Vidya* project
